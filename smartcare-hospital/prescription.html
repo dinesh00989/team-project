@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prescription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav><a href="index.html">⬅ Home</a></nav>
+
+<section class="section">
+  <h2>Create Prescription</h2>
+  <input id="prePatient" placeholder="Patient Name">
+  <select id="preDoctor"></select>
+  <textarea id="medicine" placeholder="Medicines & Advice"></textarea>
+  <button onclick="addPrescription()">Save</button>
+</section>
+
+<section class="section light">
+  <h2>Prescriptions</h2>
+  <ul id="prescriptionList"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

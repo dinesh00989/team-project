@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appointments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav><a href="index.html">⬅ Home</a></nav>
+
+<section class="section">
+  <h2>Schedule Appointment</h2>
+  <input id="aptPatient" placeholder="Patient Name">
+  <select id="aptDoctor"></select>
+  <input type="date" id="aptDate">
+  <button onclick="addAppointment()">Schedule</button>
+</section>
+
+<section class="section light">
+  <h2>Appointments</h2>
+  <ul id="appointmentList"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
